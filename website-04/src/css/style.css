@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family:  Verdana, Geneva, sans-serif;
+	line-height: 1.6;
+}
+
+#showcase {
+	background: url("../img/cross.jpeg") no-repeat center;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#showcase h1 {
+	color: #d99c78;
+	font-size: 300%;
+	text-align: center;
+}
+#showcase p {
+	color: #d5d5d5;
+	font-size: 120%;
+	text-align: center;
+	padding: 0 20%;
+}
+
+section p {
+	color: #000;
+	padding: 2% 2%;
+}
