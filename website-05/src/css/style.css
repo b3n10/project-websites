@@ -1,0 +1,82 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 16px;
+	font-weight: 400;
+	font-family:  Verdana, Geneva, sans-serif;
+	line-height: 1.8em;
+	color: #666;
+}
+
+
+.parallax-img1 {
+	background: url("../img/chihuahua.jpeg");
+	min-height: 100vh;
+}
+
+.parallax-img2 {
+	background: url("../img/ornament.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 400px;
+}
+
+.parallax-img3 {
+	background: url("../img/brown-potato.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 400px;
+}
+
+.parallax-img1,
+.parallax-img2,
+.parallax-img3 {
+	position: relative;
+	opacity: 0.80;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.section {
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.section-light {
+	background-color: #f4f4f4;
+}
+.section-dark {
+	background-color: #282e34;
+	color: #ddd;
+}
+
+.parallax-text {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.parallax-text .border {
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+}
+.parallax-text .border.trans {
+	background: transparent;
+}
+
+/* mobile view */
+@media (max-width: 568px) {
+	.parallax-img1,
+	.parallax-img2,
+	.parallax-img3 {
+		background-attachment: scroll;
+	}
+}
