@@ -16,6 +16,7 @@ Visit index page [here.](https://b3n10.github.io/project-websites/)
   - [Parallax](https://b3n10.github.io/project-websites/website-05/src/)
   - [Responsive Pricing Tables](https://b3n10.github.io/project-websites/website-06/src/)
   - [Flat Responsive Website](https://b3n10.github.io/project-websites/website-07/src/)
+  - [Responsive Side Menu](https://b3n10.github.io/project-websites/website-08/)
 
 ### Credits
 
