@@ -11,7 +11,7 @@ body {
 
 .navbar {
 	background-color: #3b5998;
-	overflow: hidden;
+	overflow-x: hidden;
 	height: 63px;
 }
 
@@ -71,17 +71,15 @@ body {
 .main {
 	transition: margin-left 0.2s;
 	padding: 20px;
-	overflow: hidden;
 	width: 100%;
+}
+.main p {
+	padding: 10px 15px;
 }
 
 @media (max-width: 568px) {
-	.navbar-nav {
-		display: none;
-	}
+	.navbar-nav { display: none; }
 }
 @media (min-width: 568px) {
-	.open-slide {
-		display: none;
-	}
+	.open-slide { display: none; }
 }
