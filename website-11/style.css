@@ -1,11 +1,10 @@
 /*
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com
-Twitter: @rich_clark
-https://youtu.be/kbLfWKGVsMQ?t=3805
- */
+	html5doctor.com Reset Stylesheet
+	v1.6.1
+	Last Updated: 2010-09-17
+	Author: Richard Clark - http://richclarkdesign.com
+	Twitter: @rich_clark
+*/
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -102,7 +101,8 @@ input, select {
 	vertical-align:middle;
 }
 
-/* own code */
+
+/* OWN CODE */
 * {
 	text-decoration: none;
 }
@@ -142,13 +142,44 @@ header nav ul li {
 header nav ul li a {
 	font-family: Catamaran;
 	font-size: 1em;
-	text-transform: lowercase;
+	text-transform: uppercase;
 	color: #111;
 }
 
 header .header-cases,
 footer .links-cases {
 	display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+	header .header-brand {
+		margin: 31px 0;
+		text-align: left;
+		padding: 0 20px 0 40px;
+		border-right: 3px solid #111;
+		float: left;
+		line-height: 40px;
+	}
+	header nav ul {
+		margin: 20px 0 20px 20px;
+		float: left;
+	}
+	header nav ul li a {
+		line-height: 60px;
+	}
+	header .header-cases {
+		display: block;
+		font-family: Catamaran;
+		font-size: 1em;
+		text-transform: uppercase;
+		color: #111;
+		line-height: 38px;
+		border: 1px solid #111;
+		float: right;
+		margin-right: 40px;
+		margin-top: 29px;
+		padding: 0 20px;
+	}
 }
 
 .index-banner {
@@ -181,6 +212,43 @@ footer .links-cases {
 	color: #fff;
 	text-align: center;
 	text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+@media only screen and (min-width: 1000px) {
+	.wrapper {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.wrapper section {
+		overflow: hidden;
+	}
+	.index-banner {
+		height: 460px;
+	}
+	.index-banner h1 {
+		display: block;
+		width: 600px;
+		margin: 0 auto;
+	}
+	[class^="boxlink-"] {
+		margin: 20px 10px 0 !important;
+		height: 230px !important;
+		float: left;
+	}
+	.boxlink-1,
+	.boxlink-3,
+	.boxlink-5,
+	.boxlink-6 {
+		width: calc(25% - 20px) !important;
+		display: inline-block;
+	}
+	.boxlink-2,
+	.boxlink-4 {
+		width: calc(50% - 20px) !important;
+		display: inline-block;
+	}
+	[class^="boxlink-"] h3 {
+		line-height: 230px !important;
+	}
 }
 
 [class^="boxlink-"] {
@@ -221,7 +289,7 @@ footer ul li a {
 	font-family: Catamaran;
 	font-size: 24px;
 	color: #fff;
-	line-height: 30px;
+	line-height: 40px;
 }
 footer .sm-links {
 	width: 60px;
@@ -230,4 +298,23 @@ footer .sm-links {
 footer .sm-links img {
 	width: 100%;
 	margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+	footer .links-cases {
+		display: block;
+	}
+	footer ul {
+		padding-right: 30px;
+	}
+	footer ul li p {
+		font-family: Catamaran;
+		font-size: 24px;
+		color: #fff;
+		line-height: 40px;
+		text-transform: uppercase;
+	}
+	footer .links-cases a {
+		text-transform: uppercase;
+	}
 }
